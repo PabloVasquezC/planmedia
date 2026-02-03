@@ -7,10 +7,8 @@ import { ArrowRight } from "lucide-react"
 
 export function Hero() {
     return (
-        <section className="relative overflow-hidden bg-slate-900 py-20 sm:py-32 lg:pb-32 xl:pb-36">
-            {/* Background gradients */}
-            <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
-            <div className="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]">
+        <section className="relative overflow-hidden py-20 sm:py-32 lg:pb-32 xl:pb-36 bg-slate-950/30">
+            <div className="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)] pointer-events-none">
                 <div
                     className="aspect-[1108/632] w-[69.25rem] bg-gradient-to-r from-accent/40 to-primary/40 opacity-20"
                     style={{
@@ -20,7 +18,7 @@ export function Hero() {
                 ></div>
             </div>
 
-            <div className="container px-4 text-center md:px-6">
+            <div className="container mx-auto px-4 text-center md:px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}

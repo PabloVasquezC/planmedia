@@ -16,12 +16,12 @@ export function Header() {
     ]
 
     return (
-        <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
-            <div className="container flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
+        <header className="sticky top-0 z-50 w-full border-b border-slate-800 bg-slate-950/95 backdrop-blur supports-[backdrop-filter]:bg-slate-950/60">
+            <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center gap-2">
                     {/* Logo representation based on image: Plan[media] Consultores */}
                     <Link href="/" className="flex flex-col leading-none">
-                        <div className="flex items-center text-2xl font-bold tracking-tight text-primary">
+                        <div className="flex items-center text-2xl font-bold tracking-tight text-white">
                             Plan<span className="text-accent">media</span>
                             <span className="text-accent text-3xl font-light ml-0.5">]</span>
                         </div>
@@ -37,7 +37,7 @@ export function Header() {
                         <Link
                             key={link.name}
                             href={link.href}
-                            className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary hover:underline underline-offset-4"
+                            className="text-sm font-medium text-slate-400 transition-colors hover:text-white hover:underline underline-offset-4"
                         >
                             {link.name}
                         </Link>
