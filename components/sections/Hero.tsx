@@ -24,12 +24,7 @@ export function Hero() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <div className="mx-auto mb-6 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-slate-700 bg-slate-800/50 px-7 py-2 backdrop-blur hover:bg-slate-800/70 transition-colors cursor-default">
-                        <span className="text-sm font-semibold text-slate-200">
-                            Consultoría Estratégica Integral
-                        </span>
-                    </div>
-                    <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl md:text-7xl lg:text-8xl max-w-4xl mx-auto">
+                        <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl md:text-7xl lg:text-8xl max-w-4xl mx-auto">
                         Impulsamos el <span className="text-accent">futuro</span> de tu proyecto
                     </h1>
                     <p className="mx-auto mt-6 max-w-2xl text-lg text-slate-300 sm:text-xl">

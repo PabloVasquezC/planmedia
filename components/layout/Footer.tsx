@@ -80,6 +80,17 @@ export function Footer() {
 
                 <div className="mt-12 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
                     <p>&copy; {new Date().getFullYear()} Plan Media Consultores. Todos los derechos reservados.</p>
+                    <div className="mt-2 flex items-center justify-center gap-1">
+                        <span>Sitio web construido por</span>
+                        <a
+                            href="https://fluxia.cl"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-slate-400 hover:text-accent transition-colors font-medium inline-flex items-center gap-1"
+                        >
+                            Fluxia
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
