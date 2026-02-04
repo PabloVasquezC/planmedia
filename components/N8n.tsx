@@ -22,6 +22,9 @@ export function N8nChat() {
             title: "Plan Media.",
             subtitle: "Asistencia Virtual",
             inputPlaceholder: "Escribe aqui..",
+            footer: "",
+            getStarted: "Comenzar",
+            closeButtonTooltip: "Cerrar chat",
           },
         },
       });
