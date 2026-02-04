@@ -34,7 +34,13 @@ import { Building2, FileText, Megaphone, Milestone, GraduationCap, Scale, Clipbo
 
 
 export function Services() {
-    const serviceGroups = [
+    interface ServiceItem {
+        name: string
+        icon: any
+        highlight?: boolean
+    }
+
+    const serviceGroups: { title: string; services: ServiceItem[] }[] = [
         {
             title: "Nacimiento",
             services: [
