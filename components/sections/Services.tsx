@@ -4,31 +4,62 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { motion } from "framer-motion"
 import { Building2, FileText, Megaphone, Milestone, GraduationCap, Scale, ClipboardCheck, Activity, Stamp, HelpCircle } from "lucide-react"
 
+
+// Nacimiento:
+
+// Emprendimiento y modelo de negocios
+// Creación y formalización de empresas
+// Registro de marca
+// Resolución sanitaria
+
+// Crecimiento:
+
+// Comunicación corporativa y relaciones públicas
+// Planificación estratégica
+// Escalamiento y desarrollo de líneas de negocio
+// Fondos concursables
+
+// Madurez:
+
+// Capacitación y coaching
+// Servicios legales y laborales
+// Auditorías y certificaciones
+// Planificación financiera y tributaria
+
+
+
+
+
+
+
+
 export function Services() {
     const serviceGroups = [
         {
-            title: "Desarrollo Empresarial",
+            title: "Nacimiento",
             services: [
-                { name: "Creación y formalización de empresas", icon: Building2 },
-                { name: "Planificación estratégica", icon: Milestone },
-                { name: "Fondos concursables", icon: FileText },
+                { name: "Emprendimiento y modelo de negocios", icon: Building2 },
+                { name: "Creación y formalización de empresas", icon: Milestone },
                 { name: "Inscripción de marca", icon: Stamp },
-            ],
-        },
-        {
-            title: "Gestión Institucional y Corporativa",
-            services: [
-                { name: "Relaciones públicas y comunicación corporativa", icon: Megaphone },
-                { name: "Auditorías y certificaciones", icon: ClipboardCheck },
                 { name: "Resolución sanitaria", icon: Activity },
             ],
         },
         {
-            title: "Personas y Cumplimiento",
+            title: "Crecimiento",
+            services: [
+                { name: "Comunicación corporativa y relaciones públicas", icon: Megaphone },
+                { name: "Planificación estratégica", icon: Milestone },
+                { name: "Escalamiento y desarrollo de líneas de negocio", icon: Activity },
+                { name: "Fondos concursables", icon: FileText },
+            ],
+        },
+        {
+            title: "Madurez",
             services: [
                 { name: "Capacitación y coaching", icon: GraduationCap },
                 { name: "Servicios legales y laborales", icon: Scale },
-                { name: "Orientación General / No lo tengo claro", icon: HelpCircle, highlight: true },
+                { name: "Auditorías y certificaciones", icon: ClipboardCheck },
+                { name: "Planificación financiera y tributaria", icon: FileText },
             ],
         },
     ]
