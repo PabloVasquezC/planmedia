@@ -62,17 +62,13 @@ export function Footer() {
                     <div>
                         <h3 className="text-lg font-semibold text-white mb-4">Siguenos</h3>
                         <div className="flex gap-4 mb-6">
-                            <Link href="#" className="p-2 bg-slate-800 rounded-full hover:bg-accent hover:text-white transition-colors">
+                            <Link href="https://www.instagram.com/planmedia.cl/" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-800 rounded-full hover:bg-accent hover:text-white transition-colors">
                                 <Instagram className="h-5 w-5" />
                                 <span className="sr-only">Instagram</span>
                             </Link>
-                            <Link href="#" className="p-2 bg-slate-800 rounded-full hover:bg-accent hover:text-white transition-colors">
+                            <Link href="https://www.facebook.com/profile.php?id=61579871241571&sfnsn=wa" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-800 rounded-full hover:bg-accent hover:text-white transition-colors">
                                 <Facebook className="h-5 w-5" />
                                 <span className="sr-only">Facebook</span>
-                            </Link>
-                            <Link href="#" className="p-2 bg-slate-800 rounded-full hover:bg-accent hover:text-white transition-colors">
-                                <Linkedin className="h-5 w-5" />
-                                <span className="sr-only">LinkedIn</span>
                             </Link>
                         </div>
                     </div>
