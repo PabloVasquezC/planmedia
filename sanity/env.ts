@@ -1,20 +1,11 @@
 export const apiVersion =
-  process.env.NEXT_PUBLIC_SANITY_API_VERSION || '2026-02-04'
+  process.env.NEXT_PUBLIC_SANITY_API_VERSION || '2026-01-22'
 
-export const dataset = assertValue(
-  process.env.NEXT_PUBLIC_SANITY_DATASET,
-  'Missing environment variable: NEXT_PUBLIC_SANITY_DATASET'
-)
+export const dataset =
+  process.env.NEXT_PUBLIC_SANITY_DATASET || 'production'
 
-export const projectId = assertValue(
-  process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
-  'Missing environment variable: NEXT_PUBLIC_SANITY_PROJECT_ID'
-)
+export const projectId =
+  process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || 'zteshnpo'
 
-function assertValue<T>(v: T | undefined, errorMessage: string): T {
-  if (v === undefined) {
-    throw new Error(errorMessage)
-  }
-
-  return v
-}
+export const token =
+  process.env.SANITY_API_WRITE_TOKEN || 'skqAaekXdyEukHs0H96CCzclCWW0FduKDE5MwtUb6xJQH1QXGZAVdRJ6hEoS4qisSBBP9D94BktHb4klJCAhXkEe5M7hSU15Ul8qBvhH6MyDEYTcnkNaleYRZbGKBJKLjWuhM9qmCivgofaLpiT7URb3RGXGbLbJuErUQpZEujLMJ2xgwAA6'
