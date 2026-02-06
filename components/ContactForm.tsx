@@ -21,7 +21,7 @@ const serviciosOptions = [
     "Fondos concursables",
     "Capacitación y coaching",
     "Servicios legales y laborales",
-    "Auditorías y certificaciones",
+    "Auditorías y sistemas de gestión de la calidad",
     "Planificación financiera y tributaria",
     "Otro servicio"
 ]
