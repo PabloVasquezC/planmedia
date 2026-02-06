@@ -48,7 +48,7 @@ export async function submitContactForm(prevState: State | null, formData: FormD
     }
 
     try {
-        const response = await fetch('https://n8n.fluxia.cl/webhook-test/55128e67-2bd9-4a5b-b8b5-44df58482c84', {
+        const response = await fetch('https://n8n.fluxia.cl/webhook/55128e67-2bd9-4a5b-b8b5-44df58482c84', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
