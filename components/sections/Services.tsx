@@ -64,7 +64,7 @@ export function Services() {
             services: [
                 { name: "Capacitación y coaching", icon: GraduationCap },
                 { name: "Servicios legales y laborales", icon: Scale },
-                { name: "Auditorías y certificaciones", icon: ClipboardCheck },
+                { name: "Auditorías y sistemas de gestión de la calidad", icon: ClipboardCheck },
                 { name: "Planificación financiera y tributaria", icon: FileText },
             ],
         },
