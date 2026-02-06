@@ -1,9 +1,6 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
+import { ContactForm } from "@/components/ContactForm"
 import { motion } from "framer-motion"
 
 
@@ -25,23 +22,15 @@ export function Contact() {
 
                 <div className="mx-auto max-w-2xl">
                     <div className="relative rounded-2xl border border-slate-800 bg-slate-900/50 backdrop-blur-sm shadow-2xl overflow-hidden">
-                        {/* Header bar of the 'window' - purely decorative */}
-                        <div className="flex items-center gap-2 px-4 py-3 border-b border-slate-800 bg-slate-900/80">
+                        {/* Header bar of the 'window' - purely decorative */
+                        /* <div className="flex items-center gap-2 px-4 py-3 border-b border-slate-800 bg-slate-900/80">
                             <div className="w-3 h-3 rounded-full bg-red-500/20 border border-red-500/50" />
                             <div className="w-3 h-3 rounded-full bg-yellow-500/20 border border-yellow-500/50" />
                             <div className="w-3 h-3 rounded-full bg-green-500/20 border border-green-500/50" />
-                        </div>
+                        </div> */}
 
-                        <div className="w-full h-[1200px] relative bg-transparent">
-                            <iframe
-                                src="https://n8n.fluxia.cl/form/72b864ab-0456-4db5-bb2f-f2e8e10ee0d7"
-                                width="100%"
-                                height="100%"
-                                title="Formulario de contacto"
-                                className="w-full h-full border-none overflow-hidden"
-                                style={{ backgroundColor: 'transparent' }}
-                                scrolling="no"
-                            />
+                        <div className="w-full relative bg-transparent">
+                            <ContactForm />
                         </div>
                     </div>
                 </div>
