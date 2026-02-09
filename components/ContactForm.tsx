@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils"
 const serviciosOptions = [
     "Emprendimiento y modelo de negocios",
     "Creación y formalización de empresas",
-    "Inscripción de marca",
+    "Registro de marca",
     "Resolución sanitaria",
     "Comunicación corporativa y relaciones públicas",
     "Planificación estratégica",
