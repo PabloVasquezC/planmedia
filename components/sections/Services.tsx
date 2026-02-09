@@ -120,7 +120,7 @@ export function Services() {
                                                 <div className={`p-2 rounded-lg ${service.highlight ? 'bg-accent text-white' : 'bg-slate-800 text-accent'}`}>
                                                     <service.icon className="h-5 w-5" />
                                                 </div>
-                                                <CardTitle className={`text-sm font-medium leading-tight ${service.highlight ? 'text-white' : 'text-slate-200'}`}>
+                                                <CardTitle className={`text-md font-medium leading-tight ${service.highlight ? 'text-white' : 'text-slate-200'}`}>
                                                     {service.name}
                                                 </CardTitle>
                                             </CardHeader>
