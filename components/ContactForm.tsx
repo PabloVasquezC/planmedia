@@ -20,7 +20,7 @@ const serviciosOptions = [
     "Escalamiento y desarrollo de líneas de negocio",
     "Fondos concursables",
     "Capacitación y coaching",
-    "Servicios legales y laborales",
+    "Asesoría legal",
     "Auditorías y sistemas de gestión de la calidad",
     "Planificación financiera y tributaria",
     "Otro servicio"

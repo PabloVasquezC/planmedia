@@ -46,7 +46,7 @@ export function Services() {
             services: [
                 { name: "Emprendimiento y modelo de negocios", icon: Building2 },
                 { name: "Creación y formalización de empresas", icon: Milestone },
-                { name: "Inscripción de marca", icon: Stamp },
+                { name: "Registro de marca", icon: Stamp },
                 { name: "Resolución sanitaria", icon: Activity },
             ],
         },
