@@ -63,7 +63,7 @@ export function Services() {
             title: "Madurez",
             services: [
                 { name: "Capacitación y coaching", icon: GraduationCap },
-                { name: "Servicios legales y laborales", icon: Scale },
+                { name: "Asesoría legal", icon: Scale },
                 { name: "Auditorías y sistemas de gestión de la calidad", icon: ClipboardCheck },
                 { name: "Planificación financiera y tributaria", icon: FileText },
             ],
